@@ -1,0 +1,155 @@
+header{
+    padding: 200px;
+}
+body{
+    background-color:#eeeeee;
+    font-family:  sans-serif;
+}
+#p1{
+    font-size: 1.8em;
+}
+.line{
+    border: none;
+    height: 1px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #eeeeee;
+}
+.bottom{
+    position:fixed;
+    bottom:0;
+    color:#aaaaaa;
+    background-color: white;
+    padding-right: 25%; 
+    font-size: 0.8em;
+    padding-left: 25%;
+}
+#email{ border:2px solid #eeeeee; 
+    border-radius:5px; 
+    margin:15px; 
+    padding-bottom: 10px; 
+    color:#aaaaaa; 
+    padding-top:15px; 
+    padding-left: 10px; 
+    margin-bottom: 10px;
+    width: 88%;
+    font-size: 1em;
+}
+#email:hover{
+    border-color: lightgray;
+}
+#password{
+    border:2px solid #eeeeee;
+    border-radius:5px;
+    margin:15px;
+    color:#aaaaaa;
+    padding:3px;
+    margin-top: 10px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    width: 88%;
+    font-size: 1em;
+}
+#password:hover{
+    border-color: lightgrey;
+}
+#login{
+    border:2px solid rgb(0,87,255);
+    background-color: rgb(0,87,255);
+    height: 2.6em;
+    color: #e1e0db;
+    border-radius:5px;
+    text-align: center;
+    font-size: 3em;
+    margin:15px;
+    font-weight: bold;
+    font-size: 1em;
+    padding-top: 13px;
+    padding-left: 40%;
+    padding-right: 40%;
+    padding-bottom: 5px;
+    margin-top: 5px;
+
+    
+}
+#login:hover{
+    background-color: #2a9df4;
+    border-color: #2a9df4;
+}
+#forget{
+    color:rgb(38, 143, 224);
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.8em;
+    margin:20px;
+    margin-top: 5px;
+    
+}
+#forget:hover{
+    color:#2a9df4;
+}
+#forgetlink:visited{
+    color:rgb(38, 143, 224);
+    text-decoration: none;
+
+}
+#forgetlink:hover{
+    color:#2a9df4;
+    text-decoration: underline;
+}
+#forgetlink:link{
+    color:rgb(38, 143, 224);
+    text-decoration: none;
+}
+#new{
+    border:2px solid rgb(0, 191, 0);
+    background-color: rgb(0, 191, 0);
+    color:#f1f0eb;
+    
+    border-radius:5px;
+    text-align: center;
+    font-size: 1em;
+    padding-top: 15px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-left: 70px;
+    margin-right: 70px;
+    padding-bottom: 10px;
+}
+#new:hover{
+    background-color:#00cc00;
+    border-color: #00cc00;
+
+}
+#newlink:link{
+    color:white;
+    text-decoration: none;
+}
+#newlink:visited {
+    color:#f1f0eb;
+    text-decoration: none;
+  }
+#newlink:hover{
+    color:#f1f0eb;
+    text-decoration: underline;
+}
+.box{
+    width: 370px;
+    border-radius: 5px;
+    background-color: white;
+    padding:0,5px;
+    position:absolute;
+    left:58%;
+    top:18%;
+    height: 340px;
+}
+.box2{
+    position:absolute;
+    left:59%;
+    top:59%;
+    font-size: 0.8em;
+    text-align: center;
+    
+}
+
