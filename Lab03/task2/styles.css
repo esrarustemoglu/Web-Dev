@@ -1,0 +1,73 @@
+header{
+    background-color: black;
+    color:lightgray;
+    padding: 10px;
+    padding-left: 50px;
+}
+.div_first{
+    margin-left:20%;
+}
+.formdiv{
+    display:flex;
+    padding-left: 50px;
+}
+#NewTask{
+    padding: 5px;
+    padding-right: 30%;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 3px;
+}
+#add{
+    background-color: rgb(45, 100, 183);
+    color:beige;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 3px;
+    margin-left: 15px;
+}
+ul{
+    list-style: none;
+    
+}
+.delete{
+    border:none;
+    color:red;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+
+.list-group {
+    border: 1px solid lightgray;  
+    border-radius: 3px;          
+    background: #f9f9f9;
+    padding: 0;                  
+    list-style: none;            
+    margin-right: 50px;          
+    overflow: hidden;            
+}
+
+.list-group li {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;  
+}
+.ListToDo span {
+    flex-grow: 1;  
+}
+.list-group li:last-child {
+    border-bottom: none;
+}
+.list-group li:empty {
+    border-bottom: none;
+}
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+
